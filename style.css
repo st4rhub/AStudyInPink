@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* MAIN PAGE */
+
+p {
+    font-family: Montserrat;
+}
+
+h1, h2 {
+    font-family: "Bodoni Moda", serif;
+    color:#552C2B;
+}
+
+
+header{
+    background-image: url("/images/Green\ Planet\ Home\ Decor\ _\ Custom\ Upholstered\ Furniture.jpeg");
+    padding-top: 15px;
+    width: 100%;
+}
+
+footer{
+    background-color: #552C2B;
+    color: #DAA9B2;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.blog-name {
+    font-family: "Gravitas One", serif;
+    text-align: center;
+    font-size: 50px;
+    color: #552C2B;
+}
+
+.navigation-links {
+    display: grid;
+    grid-template-columns: repeat(5,1fr) ;
+    list-style-type: none;
+    margin : 0;
+    padding : 10px;
+    margin-top : 15px;
+    overflow : hidden;
+    background-color: #552C2B;
+    font-size: large;
+}
+
+.nav-link {
+    float : left;
+    display : block;
+    color : white;
+    text-align : center;
+    font-family: Montserrat;
+
+}
+
+.nav-link > a:link {
+    color : #DAA9B2;
+    text-decoration : none;
+}
+
+.nav-link > a:visited {
+    color: #DAA9B2;
+    text-decoration : none;
+}
+
+.nav-link > a:hover {
+    color: white;
+    text-decoration : none;
+
+}
+
+.nav-link > a:active {
+    color: white;
+    text-decoration : none;
+
+}
+
+a:link {
+    color:#552C2B;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#552C2B;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#DAA9B2;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#552C2B;
+    text-decoration: none;
+}
+
+
+
+.blog-text > h2 > a:link {
+    color:#552C2B;
+    text-decoration: none;
+}
+
+.blog-text > h2 > a:visited {
+    color:#552C2B;
+    text-decoration: none;
+}
+
+.blog-text > h2 > a:hover {
+    color:#DAA9B2;
+    text-decoration: none;
+}
+
+.blog-text > h2 > a:active {
+    color:#552C2B;
+    text-decoration: none;
+}
+
+
+.introduction {
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.blog-text {
+    margin: 30px;
+}
+
+.blog-text > h2 {
+    margin-bottom: 15px;;
+}
+
+
+.blog-post {
+    display: flex;
+    margin: 30px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    border: #DAA9B2;
+    border-style: solid;
+}
+
+.image-container {
+    width: 100vw;
+    margin: 10px;
+    border-radius: 25px;
+
+}
+
+.image-container img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 15px;
+
+}
+
+.latest {
+    margin: 10px;
+    margin-left: 30px;
+}
+
+/* ARTICLE PAGES */
+
+.article-title {
+    text-align: center;
+}
+
+.caption {
+    text-align: center;
+}
+
+.text-img {
+    display: flex;
+    margin: 30px;
+
+}
+
+.text-block {
+    margin: 20px;
+    text-align: justify;
+}
+
+.three-imgs {
+    display: flex;
+    margin: 30px;
+}
+
+.container {
+    display: block;
+}
+
+.container > .image-container {
+    width: 80%;
+    height: auto; 
+}
+
+.subtitle {
+    margin: 50px;
+}
+
+/* CELEB PROFILES PAGE */
+
+.profiles{
+    display: flex;
+    margin: 30px;
+    margin-left: 0px;
+}
+
+.profile {
+    display: flex;
+    background-color: whitesmoke;
+    margin-left: 30px;
+    border-radius: 25px;
+    border: #DAA9B2;
+    border-style: solid;
+}
+
+.interviewer{
+    color: #552C2B;
+    margin-bottom: 15px;
+}
